@@ -1,0 +1,59 @@
+Entity Layer  - Projeye ait Entity
+DataAccess Layer  - Database
+Business Layer  - Logic 
+Presentation Layer /UI - 
+
+
+
+Conctrete folder - for somut ifadeler icin - Vlaslar olusturulacak 
+ -- Category.cs  - Sadece olusturulacak olan category tablosuna ait degerler eg Category ID / status / name   giibi sutunlarin karsiligi/ 
+ -- Product.cs   - 
+ -- Customer.cs  -
+ -- Order.cs  -
+
+CodeFirst - tabloloar C# uzerinde yapilmasi 
+
+Object orient
+
+SQL uzerinde tablo olusturuyorduk sonra C# ta QUERY Bazli cekiyprduk
+
+OOP de ise 
+C# ta CLASS olusturup SQL de table a donusecek
+  CLASS in icinde
+   - PROPERTY --> COLUMN
+
+
+access modifier  (erisim belirleyici) kimler tarafindan erisilip erisilemeyecegi 
+      -- Public      - heryerden erisim saglamaya izin veriyor
+      -- Private     - Sadece bulundugu kanaldan classtan
+      -- Internal    - Sadece bulundugu katmandan (entity)
+      -- Protected   - Sadece 1 sinif ve inherited ones
+
+
+Komutlar
+- Field    - Bir degisen (int x;) direct olarak sinifin icine tanimlaniyorsa  - int x,
+- Variable - Bir degisen (int x;) method icinde tanimlanirsa                  - void test ()
+                                                                                {
+                                                                                int z;
+                                                                                }
+- Property - Bir degisen (int x;) sonuna 1 deger alirsa (eg, get; set)        - public int y {get; set;}
+
+
+public class Category 
+{
+   int x;
+
+   public int y  {get; set;}
+
+   voiftest ()
+   {
+     int z; 
+   }
+}
+
+SOLID
+- Single Responsibility
+
+
+
+
