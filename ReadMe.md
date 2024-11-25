@@ -19,4 +19,6 @@ Most Expensive Tour: Displays the city associated with the most expensive tour.
 Jane Doe's Tours: Counts and displays the number of tours guided by Jane Doe.
 
 
+![Alt text](../)
+
 
