@@ -10,7 +10,7 @@ namespace C_Bootcamp_301.DataAccessLayer.Abstract
     {
         void Insert(T entity);
         void Update(T entity);
-        void Delete(int id);
+        void Delete(int entity);
         List<T> GetAll();
         T GetById(int id);
     }
